@@ -1,0 +1,26 @@
+{
+  "signup": {
+    "en": "Sign up",
+    "sr": "Napravi nalog",
+    "de": "Melde an",
+    "jp": "サインアップ"
+  },
+  "submit": {
+    "en": "Submit",
+    "de": "Einreichen",
+    "sr": "Prihvati",
+    "jp": "提出して"
+  },
+  "wpass": {
+    "en": "Enter with password",
+    "de": "Mit Passwort eingeben",
+    "sr": "Prijavite se sa šifrom",
+    "jp": "パスワードを使ってサインアップして"
+  },
+  "enterpass": {
+    "en": "Enter password",
+    "de": "Tippe Passwort ein",
+    "sr": "Ukucaj šifru",
+    "jp": "パスワードを入力して"
+  }
+}

@@ -1,13 +1,48 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: yellow;
+  color: black;
+}
+
+@font-face {
+  font-family: 'Hanson-Bold';
+  src: url('./assets/Hanson-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'ProstTanak';
+  src: url('./assets/ProstTanak.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.active { color: gray; }
+.pointer { cursor: pointer; }
+.popup-header { text-align: right; }
+.close-icon {font-size: 20px; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #eee; }
+::-webkit-scrollbar-thumb { background: #737373; }
+
+#root { overflow-x: hidden; }
